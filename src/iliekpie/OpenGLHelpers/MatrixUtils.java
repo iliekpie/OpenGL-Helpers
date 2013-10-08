@@ -64,7 +64,7 @@ public class MatrixUtils {
         return tempMatrix;
     }
 
-    public static Matrix4f applyTranslations(Vector3f position, Vector3f rotation, Matrix4f targetMatrix) {
+    public static Matrix4f applyWorldTransformation(Vector3f position, Vector3f rotation, Matrix4f targetMatrix) {
         //Rotation vector: x = pitch, y = yaw, z = roll
         targetMatrix.rotate((float)Math.toRadians(rotation.getX()), new Vector3f(1.0f, 0.0f, 0.0f));
         targetMatrix.rotate((float)Math.toRadians(rotation.getY()), new Vector3f(0.0f, 1.0f, 0.0f));
@@ -74,9 +74,25 @@ public class MatrixUtils {
         return targetMatrix;
     }
 
-    public static Matrix4f applyTranslations(Vector3f position, Vector3f rotation){
+    public static Matrix4f getWorldTransformationMatrix(Vector3f position, Vector3f rotation) {
         Matrix4f tempMatrix = new Matrix4f();
-        return applyTranslations(position, rotation, tempMatrix);
+        return applyWorldTransformation(position, rotation, tempMatrix);
+    }
+
+    public static Matrix4f applyLocalTransformation(Vector3f position, Vector3f rotation, Matrix4f targetMatrix) {
+        //rotates roll, pitch, yaw; translates x, y, z
+        targetMatrix.translate(new Vector3f(-position.getX(), -position.getY(), -position.getZ()));
+
+        targetMatrix.rotate((float) Math.toRadians(rotation.getY()), new Vector3f(0.0f, 1.0f, 0.0f));
+        targetMatrix.rotate((float)Math.toRadians(rotation.getX()), new Vector3f(1.0f, 0.0f, 0.0f));
+        targetMatrix.rotate((float) Math.toRadians(rotation.getZ()), new Vector3f(0.0f, 0.0f, 1.0f));
+
+        return targetMatrix;
+    }
+
+    public static Matrix4f getLocalTransformationMatrix(Vector3f position, Vector3f rotation) {
+        Matrix4f tempMatrix = new Matrix4f();
+        return applyLocalTransformation(position, rotation, tempMatrix);
     }
 
     public static Matrix4f multiplyMVP(Matrix4f model, Matrix4f view, Matrix4f projection) {
