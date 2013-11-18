@@ -7,30 +7,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f595bd6-05de-46e0-92ef-f4c8eb61910a" name="Default" comment="Changed the MatrixUtils class to allow origin-based and local-based rotations.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/MatrixUtils.java" afterPath="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/MatrixUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Color.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/VectorUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/TexturedVertex.java" afterPath="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/TexturedVertex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Vertex.java" afterPath="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Vertex.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OpenGL Helpers.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1378832150258" ignored="false" />
+    <file path="/fragment.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383882492173" ignored="false" />
     <file path="$PROJECT_DIR$/../Color Test/src/iliekpie/ColorTest/ColorTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1369723940485" ignored="false" />
     <file path="/ColorTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1369723938304" ignored="false" />
     <file path="$PROJECT_DIR$/../Projection Test/src/iliekpie/ProjectionTest/ProjectionTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1370041797839" ignored="false" />
     <file path="/ProjectionTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1370041782340" ignored="false" />
     <file path="/FPSCamera.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381249961504" ignored="false" />
     <file path="$PROJECT_DIR$/../FPS Test/src/iliekpie/FPSTest/FPSTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1380902030957" ignored="false" />
-    <file path="/FPSTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381250112201" ignored="false" />
-    <file path="/Cube.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381250025405" ignored="false" />
+    <file path="/FPSTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381463127485" ignored="false" />
+    <file path="/Cube.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766852899" ignored="false" />
     <file path="$PROJECT_DIR$/../FPS Test/src/iliekpie/FPSTest/Entities/Cube.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1380902812375" ignored="false" />
     <file path="$PROJECT_DIR$/../FPS Test/src/iliekpie/FPSTest/Helpers/FPSCameraController.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1380902087737" ignored="false" />
     <file path="/MatrixUtils.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381249936002" ignored="false" />
-    <file path="/Dummy.txt" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381250472314" ignored="false" />
-    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/Drawable.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381248164035" ignored="false" />
-    <file path="/Drawable.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381248100379" ignored="false" />
-    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Entities/Cube.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381250369883" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384735563898" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/Drawable.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381275546025" ignored="false" />
+    <file path="/Drawable.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381275534298" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Entities/Cube.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381274755686" ignored="false" />
     <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/FPSCamera.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381250369883" ignored="false" />
-    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/FPSTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381250386825" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/FPSTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381463192401" ignored="false" />
+    <file path="/a.dummy" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381273615153" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Interfaces/ILogic.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381274377335" ignored="false" />
+    <file path="/ILogic.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381274365297" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/LogicManager.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381275578561" ignored="false" />
+    <file path="/LogicManager.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381274639033" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/EntityManager.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381275578561" ignored="false" />
+    <file path="/EntityManager.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381274832705" ignored="false" />
+    <file path="/VectorUtils.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384751985461" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/Color.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381460617162" ignored="false" />
+    <file path="/Color.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381465477555" ignored="false" />
+    <file path="/Chunk.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381463083949" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/Chunk.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381463286698" ignored="false" />
+    <file path="/Vertex.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766123817" ignored="false" />
+    <file path="/TexturedVertex.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381462262847" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/BlockType/BlockType.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381462365090" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/Mesh.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381463897330" ignored="false" />
+    <file path="/Mesh.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384764373700" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/Renderer.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381463708713" ignored="false" />
+    <file path="/Renderer.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1381463700213" ignored="false" />
+    <file path="/ShaderProgram.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384751780668" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ComponentTest/src/iliekpie/componenttest/utils/vector/Vector2f.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383874739510" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ComponentTest/src/iliekpie/componenttest/utils/vector/Vector3f.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383875365389" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ComponentTest/src/iliekpie/componenttest/utils/vector/Matrix4f.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383874653745" ignored="false" />
+    <file path="/Vector3f.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383875846681" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/Main.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383890481251" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/ComponentTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383875585554" ignored="false" />
+    <file path="/ComponentTest.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383875585554" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/utils/vector/Vector3f.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383875808704" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/utils/vector/Vector3.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383890466556" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/utils/vector/Vector2.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383889687851" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/utils/vector/Matrix4.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383890396574" ignored="false" />
+    <file path="/Vector3.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383889423111" ignored="false" />
+    <file path="/Matrix4.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383890246592" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/utils/vector/Vector.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383884127643" ignored="false" />
+    <file path="/Vector.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383889857638" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/utils/vector/VectorFacade.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383889875561" ignored="false" />
+    <file path="/VectorFacade.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383889793306" ignored="false" />
+    <file path="/Vector2.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383889686804" ignored="false" />
+    <file path="/Main.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383890390252" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/utils/graphics/GameWindow.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383890789333" ignored="false" />
+    <file path="$PROJECT_DIR$/../ComponentTest/src/iliekpie/componenttest/EntityFactory.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1383891825946" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/util/File.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384750432802" ignored="false" />
+    <file path="/File.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384750432099" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/ShaderProgram.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384767097800" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/FPSCounter.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384748578994" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/util/FPSCounter.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384749309493" ignored="false" />
+    <file path="/FPSCounter.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384749303907" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/Test.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384761191680" ignored="false" />
+    <file path="/Test.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384765485779" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/util/FileUtils.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384750465542" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/Shader.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384751794026" ignored="false" />
+    <file path="/Shader.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384751772913" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/util/VectorUtils.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384752195703" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/Screen.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384765685973" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/Camera.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766982773" ignored="false" />
+    <file path="/Camera.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766981646" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/ProjectionCamera.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384752129609" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/util/Projection.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384763424989" ignored="false" />
+    <file path="/Screen.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384765676419" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/Context.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384752560986" ignored="false" />
+    <file path="/Context.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384752394392" ignored="false" />
+    <file path="$PROJECT_DIR$/../FPS-Test/src/iliekpie/FPSTest/Helpers/FPSCameraController.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384752581234" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/Input.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384752603465" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/input/CameraController.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384760503403" ignored="false" />
+    <file path="/CameraController.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384752728618" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/util/Translation.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384753141023" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/util/Transformation.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384759806761" ignored="false" />
+    <file path="/Transformation.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384759701540" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/scene/Spatial.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384763538363" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/scene/Geometry.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384763517828" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/scene/Node.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384763521596" ignored="false" />
+    <file path="/Spatial.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384763538363" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/scene/Mesh.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384764375591" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/Vertex.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766124466" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/util/Color.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384764310269" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/Color.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384764320449" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/test/Test.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384765498381" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/test/GameScreen.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384767028494" ignored="false" />
+    <file path="/GameScreen.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766960853" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/test/Cube.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766858582" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/Mesh.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384765789658" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/src/io/github/iliekpie/bootstrap/graphics/MeshRenderer.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766804553" ignored="false" />
+    <file path="/MeshRenderer.java" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384766803381" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/shaders/BasicProjection.frag" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384767050735" ignored="false" />
+    <file path="/BasicProjection.frag" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384767043446" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenGL Bootstrap/shaders/BasicProjection.vert" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384767068689" ignored="false" />
+    <file path="/BasicProjection.vert" changelist="2f595bd6-05de-46e0-92ef-f4c8eb61910a" time="1384767060547" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +137,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -85,6 +173,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -97,7 +186,7 @@
       <file leaf-file-name="ShaderProgram.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/ShaderProgram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="30" selection-start="6326" selection-end="6326" vertical-scroll-proportion="0.0">
+            <state line="146" column="7" selection-start="5003" selection-end="5003" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +195,7 @@
       <file leaf-file-name="TexturedVertex.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/TexturedVertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="26" column="30" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,16 +204,36 @@
       <file leaf-file-name="Vertex.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+            <state line="4" column="29" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixUtils.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Color.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="37" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/MatrixUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="17" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.5912548">
+            <state line="74" column="5" selection-start="2734" selection-end="2734" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VectorUtils.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/VectorUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="793" selection-end="793" vertical-scroll-proportion="0.38946164">
               <folding />
             </state>
           </provider>
@@ -150,16 +259,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/FPSCamera.java" />
-        <option value="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/ShaderProgram.java" />
         <option value="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/MatrixUtils.java" />
+        <option value="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/VectorUtils.java" />
+        <option value="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/TexturedVertex.java" />
+        <option value="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Color.java" />
+        <option value="$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/ShaderProgram.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="-35" />
+    <option name="y" value="91" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -187,10 +300,23 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OpenGL Helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lwjgl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="OpenGL Helpers" />
@@ -245,6 +371,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,7 +382,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Apps/2.0/6GD51882.090/O7LA43V4.X3V/gith..tion_317444273a93ac29_0001.0001_471e5917bf877d54/GitHub.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ComponentTest" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -412,27 +539,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-35" y="91" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28525123" sideWeight="0.6702254" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28495198" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -503,20 +630,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/TexturedVertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
@@ -587,30 +700,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/TexturedVertex.java">
+    <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+        <state line="4" column="29" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Vertex.java">
+    <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/TexturedVertex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="26" column="30" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/ShaderProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="30" selection-start="6326" selection-end="6326" vertical-scroll-proportion="0.0">
+        <state line="146" column="7" selection-start="5003" selection-end="5003" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/MatrixUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="17" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.5912548">
+        <state line="74" column="5" selection-start="2734" selection-end="2734" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iliekpie/OpenGLHelpers/VectorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="793" selection-end="793" vertical-scroll-proportion="0.38946164">
           <folding />
         </state>
       </provider>

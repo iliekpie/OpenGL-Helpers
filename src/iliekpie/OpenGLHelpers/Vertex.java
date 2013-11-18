@@ -1,9 +1,11 @@
 package iliekpie.OpenGLHelpers;
 
 public class Vertex {
-    //iliekpie.OpenGLHelpers.Vertex data
+    //Vertex data
     protected float[] xyzw = new float[] {0f, 0f, 0f, 1f};
-    protected float[] rgba = new float[] {1f, 1f, 1f, 1f};
+    //protected float[] rgba = new float[] {1f, 1f, 1f, 1f};
+    protected Color color = new Color();
+
 
     //Element size in bytes
     public static final int elementBytes = 4;
@@ -22,7 +24,7 @@ public class Vertex {
 
     //The amount of elements that a vertex has
     public static int elementCount = positionElementCount + colorElementCount;
-    //The size of a vertex in bytes, like in C/C++: sizeof(iliekpie.OpenGLHelpers.Vertex)
+    //The size of a vertex in bytes, like in C/C++: sizeof(Vertex)
     public static int stride = positionBytesCount + colorByteCount;
 
     //Setters
@@ -31,7 +33,7 @@ public class Vertex {
     }
 
     public void setRGB(float r, float g, float b) {
-        this.setRGBA(r, g, b, 1f);
+        this.color.setRGB(r, g, b);
     }
 
     public void setXYZW(float x, float y, float z, float w) {
@@ -39,7 +41,11 @@ public class Vertex {
     }
 
     public void setRGBA(float r, float g, float b, float a) {
-        this.rgba = new float[] {r, g, b, 1f};
+        this.color.setRGBA(r, g, b, a);
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
     }
 
     //Getters
@@ -54,10 +60,10 @@ public class Vertex {
         out[i++] = this.xyzw[3];
 
         //Insert RGBA elements
-        out[i++] = this.rgba[0];
-        out[i++] = this.rgba[1];
-        out[i++] = this.rgba[2];
-        out[i] = this.rgba[3];
+        out[i++] = this.color.getRed();
+        out[i++] = this.color.getGreen();
+        out[i++] = this.color.getBlue();
+        out[i] = this.color.getAlpha();
 
         return out;
     }
@@ -67,6 +73,10 @@ public class Vertex {
     }
 
     public float[] getRGBA() {
-        return new float[] {this.rgba[0], this.rgba[1], this.rgba[2], this.rgba[3]};
+        return new float[] {this.color.getRed(), this.color.getGreen(), this.color.getBlue(), this.color.getAlpha()};
+    }
+
+    public Color getColor() {
+        return color;
     }
 }

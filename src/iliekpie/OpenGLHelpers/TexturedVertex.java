@@ -25,10 +25,10 @@ public class TexturedVertex extends Vertex {
         out[i++] = xyzw[2];
         out[i++] = xyzw[3];
         //Insert RGBA elements
-        out[i++] = rgba[0];
-        out[i++] = rgba[1];
-        out[i++] = rgba[2];
-        out[i++] = rgba[3];
+        out[i++] = this.color.getRed();
+        out[i++] = this.color.getGreen();
+        out[i++] = this.color.getBlue();
+        out[i] = this.color.getAlpha();
         //Insert ST elements
         out[i++] = st[0];
         out[i] = st[1];
